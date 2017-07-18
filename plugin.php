@@ -1,8 +1,6 @@
 <?php
 
 /**
- * NiklasTeichGoogleSiteVerification
- * 
  * Koken CMS plugin to add a Google Search Console site verification HTML tag
  * to your website instead of adding a static HTML file.
  *
