@@ -1,0 +1,21 @@
+{
+  "name": "Google Site Verification",
+  "version": "1.0.0",
+  "description": "Plugin to add a Google Site Verification HTML Tag to your website.",
+  "author": {
+    "name": "Niklas Teich",
+    "link": "http://www.millenworld.de"
+  },
+
+  "data": {
+    "verification_code": {
+      "label": "Site Verfication Code",
+      "info": "Add your site verification code, generated in your websites Google Webmaster Tools account.",
+      "type": "string",
+      "validation": {
+        "type": "not_empty",
+        "error_message": "Please provide a valid Google Site verification code."
+      }
+    }
+  }
+}
